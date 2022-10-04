@@ -3,10 +3,10 @@ name: 'Build'
 on:
   push:
     branches:
-      - master
+      - 'aku-test'
   pull_request:
     branches:
-      - master
+      - 'aku-test'
 
 jobs:
   build:
